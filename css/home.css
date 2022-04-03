@@ -18,3 +18,15 @@
 
 
 /* Other css style like (h1, p, and other) */
+
+.primary {
+   background-color: var(--primary-color);
+
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+ 
+ }
+
+
