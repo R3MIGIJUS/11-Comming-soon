@@ -18,3 +18,68 @@
 
 
 /* Other css style like (h1, p, and other) */
+
+.primary {
+   background-color: var(--primary-color);
+
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+ 
+ }
+
+
+ /* HERO SECTION */
+
+ .container.hero {
+
+   padding-bottom: 20px;
+   background-image: url(../img/hero-background.jpg);
+   background-position: center;
+   background-size: cover;
+   min-height: 100vh;  /*naudojame beveik visada, kai nežinome kiek bus turinio */
+   background-attachment: fixed;  /* kai norime padaryti parallax, scrolinant juda tik turinys, o background lieka statinis */
+
+ }
+
+ .hero > .row-small{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap:20px;
+   text-align: center;
+
+ }
+
+
+ .logo {
+
+   height: 40px;
+   width: 200px;               /* Nurodome kiek galime skirti ploto img tagui */
+   object-fit: contain;        /* O čia parašome kad nuotrauka apimtų visą užduotą plotą, be jokių nuotraukos apkarpimų */
+   object-position: center;
+
+
+ }
+
+ .Title {
+
+   text-transform: uppercase;
+   font-size: 60px;
+   color: var(--dark-color);
+
+ }
+
+ .main-p {
+
+   font-size: 20px;
+   color: var(--grey-color);
+ 
+ }
+
+  /* MAIN SECTION */
+
+   /* FOOTER SECTION */
+
