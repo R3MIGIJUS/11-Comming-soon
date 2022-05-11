@@ -4,7 +4,7 @@ R3MIGIJUS project
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at : https://r3migijus.github.io/11-comming-soon/
+Site published at : https://r3migijus.github.io/11-Comming-soon/
 
 Design: Coming Soon
 
