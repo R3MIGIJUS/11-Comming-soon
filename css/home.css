@@ -83,3 +83,32 @@
 
    /* FOOTER SECTION */
 
+   footer.container {
+    padding-top: 0;
+  }
+  
+  .container .socials {
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+  }
+  .socials > .social {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    color: var(--light-color);
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 44px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+  .socials > .social:hover {
+    background-color: var(--light-color);
+    color: var(--color-primary);
+  }
