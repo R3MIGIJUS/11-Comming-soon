@@ -6,7 +6,7 @@
 
 /* 3rd party*/
 
-
+@import './3rd-party/font-awesome.min.css';
 
 /* Components*/
 
@@ -91,7 +91,7 @@
     display: flex;
     padding: 15px 0;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
     gap: 10px;
     border-bottom: 1px solid #fff;
     position: relative;
