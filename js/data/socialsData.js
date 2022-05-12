@@ -1,42 +1,42 @@
 const socialsData = [
     {
-        href: '#',
-        icon: 'facebook',
+        href: 'https://www.facebook.com',
+        icon: 'facebook'
        
     },
     {
         href: '#',
-        icon: 'google-plus',
+        icon: 'google-plus'
         
     },
     {
         href: '#',
-        icon: 'twitter',
+        icon: 'twitter'
         
     },
     {
         href: '#',
-        icon: 'dribbble',
+        icon: 'dribbble'
         
     },
     {
         href: '#',
-        icon: 'tumblr',
+        icon: 'tumblr'
         
     },
     {
         href: '#',
-        icon: 'linkedin',
+        icon: 'linkedin'
        
     },
     {
         href: '#',
-        icon: 'instagram',
+        icon: 'instagram'
        
     },
     {
         href: '#',
-        icon: 'rss',
+        icon: 'rss'
        
     }
 ];
