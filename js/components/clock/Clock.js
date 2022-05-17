@@ -118,8 +118,9 @@ export { Clock };
 // Aukščiau yra parodytas šios funkcijos užrašymas, tik su ilgesniu kodu, čia pateikiu trumpesnį :
 
 class Clock {
-  constructor(selector) {
+  constructor(selector, targetDate) {
     this.selector = selector;
+    this.targetDate = targetDate;
     this.DOM = null;
     console.log(selector);
 
@@ -140,8 +141,21 @@ class Clock {
     this.render();
   }
 
+  formatTime(timesValue) {
+    const updatedTime = [];
+
+    for (let i = 0; i < timesValue.length; i++) {
+      if (i === 0 || timesValue[i] > 9) {
+        updatedTime.push(timesValue[i]);
+      } else {
+        updatedTime.push("0" + timesValue[i]);
+      }
+    }
+    return updatedTime;
+  }
+
   render() {
-    const timesValue = [43, 9, 37, 39];
+    const timesValue = this.formatTime([43, 9, 37, 39]);
     const labelValue = ["Days", "hours", "minutes", "secundes"];
     let code = "";
 
